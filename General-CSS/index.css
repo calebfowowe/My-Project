@@ -1,3 +1,24 @@
+#whole-page{
+    position: relative;
+}
+
+#header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+#nav-menu-colors{
+    color: black;
+}
+
+#navbarDropdown{
+    color: black;
+}
+
+#navbarSupportedContent .row{
+    width: 100%;
+}
 
 .carousel-inner{
     width: auto;
@@ -20,4 +41,6 @@
 #footer{
     height: 90px;
     background-color: rgb(75, 74, 74);
+    display: flex;
 }
+
