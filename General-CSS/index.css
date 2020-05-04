@@ -38,6 +38,21 @@
     display: block;
 }
 
+.card-button{
+    margin: 0px 0px 20px 20px;
+}
+
+.card-button .btn-outline-warning{
+    border-color: #D92128;
+    color:  #D92128;
+}
+
+.card-button .btn-outline-warning:hover{
+    color: white;
+    background-color:  #D92128;
+    border-color:  #D92128;
+}
+
 #footer{
     height: 90px;
     background-color: rgb(75, 74, 74);
