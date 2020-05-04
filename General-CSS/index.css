@@ -1,8 +1,23 @@
-.carousel-item img{
-    height: auto;
+
+.carousel-inner{
+    width: auto;
+}
+
+.carousel-inner img{
+    width: 960px;
+    height: 480px;
 }
 
 #menu-logo img{
     height: 30px;
     width: 30px;
+}
+
+#Second-row-heading{
+    display: block;
+}
+
+#footer{
+    height: 90px;
+    background-color: rgb(75, 74, 74);
 }
