@@ -53,9 +53,31 @@
     border-color:  #D92128;
 }
 
+#section-headers{
+    font-size: 32px;
+}
+
+#erm-section .card img{
+    height: 250px;
+    opacity: 0.60;
+}
+
+#erm-section .card img:hover{
+    opacity: 1;
+}
+
+#erm-section .row{
+    margin-bottom: 20px;
+}
+
+#erm-section .col-sm-4 .card{
+    border: none;
+}
+
 #footer{
     height: 90px;
     background-color: rgb(75, 74, 74);
     display: flex;
 }
+
 
