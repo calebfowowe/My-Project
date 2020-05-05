@@ -1,13 +1,3 @@
-#whole-page{
-    position: relative;
-}
-
-#header{
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-}
-
 #nav-menu-colors{
     color: black;
 }
@@ -20,6 +10,14 @@
     width: 100%;
 }
 
+#nav-menu-colors:hover{
+    color: #D92128;
+}
+
+#navbarDropdown:hover{
+    color: #D92128;
+}
+
 .carousel-inner{
     width: auto;
 }
@@ -27,6 +25,13 @@
 .carousel-inner img{
     width: 960px;
     height: 480px;
+}
+
+@media (max-width: 1024px) {
+    .carousel-inner img {
+    width: 480px;
+    height: 240px;        
+    }
 }
 
 #menu-logo img{
@@ -37,6 +42,36 @@
 #Second-row-heading{
     display: block;
 }
+
+@media (max-width:960px){
+    .card-deck .card{
+        height: 100px;
+        width: 150px;
+    }
+}
+
+@media (max-width:960px) {
+    .card-deck .card-text {
+        display: none;    
+    }
+    .card-deck .card-title{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:960px){
+    #Update-section .card-deck .btn{
+        font-weight: 100;
+        padding: .19rem .19rem;
+        font-size: .375rem;
+        line-height: 1;
+        border-radius: .125rem;
+        border: 0.5px solid #D92128;;
+    }
+}
+
+
+
 
 .card-button{
     margin: 0px 0px 20px 20px;
@@ -57,6 +92,13 @@
     font-size: 32px;
 }
 
+@media (max-width:960px){
+    #section-headers{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
 #erm-section .card img{
     height: 250px;
     opacity: 0.60;
@@ -74,10 +116,46 @@
     border: none;
 }
 
-#footer{
-    height: 90px;
-    background-color: rgb(75, 74, 74);
-    display: flex;
+footer{
+    background-color: rgb(170, 167, 167);
 }
 
+#sterling-footer-logo img{
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
 
+@media (max-width: 960px) {
+    #sterling-footer-logo img {
+        height: 40px;
+        width: 40px;     
+    }
+}
+
+.footer-line-break{
+    border-bottom: 2px solid #ffffff;
+    margin: 0px;  
+}
+
+.footer-social-media a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.footer-social-media a:hover{
+    color: #D92128;
+}
+
+@media (min-width: 720px) {
+    .footer-line-break {
+        border-bottom: 2px solid #ffffff;
+        margin: 0px 25px;        
+    }
+}
+
+.footer-social-media i{
+    font-size: 28px;
+    margin: 0px 7px;
+}

@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="Assets/images/favicon.png">
+
     <link rel="stylesheet" href="General-CSS/index.css">
     <link rel="stylesheet" href="General-CSS/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <div id="whole-page">
 
-        <div id="header">
+        <div class="fixed-top" id="header">
             <nav class="navbar navbar-expand-lg navbar-light bg-light row">
                 <a class="navbar-brand col-md-3" id="menu-logo" href="#"><img src="Assets/images/sterling-logo.jpg" alt=""> Market Risk</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +64,7 @@
             </nav>
         </div>
 
-        <div class="container">
+        <div class="container" id="mainpage-slider">
             <div class="row">
                 <div class="col-sm">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -267,13 +271,75 @@
             
         </div>
 
-        <div id="footer">
+        <footer>
 
-            <div>
-                copyright 2020
+            <div class="row">
+                <div class="col-sm-3" id="sterling-footer-logo">
+                    <img src="Assets/images/sterling-logo.jpg" alt="#">
+                </div>
+
+                <div class="col-sm-3">
+                    <p>Address</p>
+                    <div>
+                        Sterling Towers
+                    </div>
+                    <div>
+                        Market Risk, 15th Floor (Long Wing)
+                    </div>
+                    <div>
+                        20, Marina Lagos
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <p>Contacts</p>
+                    <div>
+                        Mail: marketriskmanagement@sterling.ng
+                    </div>
+                    <div>
+                        Phone: + 234 (01)
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <p>Downloads</p>
+                    <div>
+                        Reports
+                    </div>
+                    <div>
+                        Policies
+                    </div>
+                    <div>
+                        Related Topics
+                    </div>
+                </div>
             </div>
 
-        </div>
+            <div class="footer-line-break">
+            </div>
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <p>© Copyright 2020 Credit Risk - All Rights Reserved</p>
+                </div>
+
+                <div class="col-sm-3">
+                    <span class="footer-social-media">
+                        <a href="">
+                            <i class='far fa-envelope'></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-skype"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-yc"></i>
+                        </a>
+
+                    </span>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
 
