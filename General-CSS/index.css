@@ -200,6 +200,7 @@
 
 #section-headers{
     font-size: 32px;
+    text-align: center;
 }
 
 #section-headers:hover{
@@ -211,6 +212,10 @@
         font-size: 16px;
         font-weight: 500;
     }
+}
+
+#erm-section .card-img-overlay .btn{
+    border-radius: 1.75rem;
 }
 
 #erm-section{
@@ -356,4 +361,38 @@ footer{
 .footer-social-media i{
     font-size: 24px;
     margin: 0px 5px;
+}
+
+#section-divider{
+    height: 20px;
+}
+
+#small-screen-erm-section{
+    display: none;
+}
+
+@media (max-width:960px) {
+    #small-screen-erm-section{
+        display: flex;
+    }
+
+    #small-screen-erm-section .btn{
+        font-weight: 100;
+        line-height: 1;
+        padding: .19rem;
+        border-radius: 1.25rem;
+        font-size: 0.50rem;
+    }
+
+    #small-screen-erm-section .btn-danger{
+        color: #ffffff;
+        border-color: #D92128;
+        background-color: #D92128;
+    }
+
+    #small-screen-erm-section .department-links{
+        width: 100%;
+        text-align: center;
+
+    }
 }
