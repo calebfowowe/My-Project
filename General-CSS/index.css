@@ -183,7 +183,6 @@
     }
 }
 
-
 .card-button{
     margin: 0px 0px 20px 20px;
 }
@@ -203,6 +202,10 @@
     font-size: 32px;
 }
 
+#section-headers:hover{
+    color: #D92128;
+}
+
 @media (max-width:960px){
     #section-headers{
         font-size: 16px;
@@ -210,13 +213,13 @@
     }
 }
 
+#erm-section{
+    height: 100%;
+}
+
 #erm-section .card img{
     height: 250px;
     opacity: 0.60;
-}
-
-#erm-section .card img:hover{
-    opacity: 1;
 }
 
 #erm-section .row{
@@ -226,6 +229,47 @@
 #erm-section .col-sm-4 .card{
     border: none;
 }
+
+#erm-section .card-img-overlay{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#erm-section a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:960px){
+
+    #erm-section .row{
+        display: none!important;
+    }
+
+    /*#erm-section .card-img-overlay h5{
+        font-size: 1rem;
+    }
+
+    #erm-section .card-img-overlay .btn{
+        font-weight: 100;
+        padding: .19rem .19rem;
+        font-size: .625rem;
+        line-height: 1;
+        border-radius: .125rem;
+        border: 0.5px solid #D92128;
+    }
+
+    #erm-section .col-sm-4{
+        height: 175px;
+        width:100%;
+    }
+
+    #erm-section .col-sm-4 img{
+        height: 175px;
+    }*/
+
+}
+
 
 
 footer{
@@ -241,10 +285,28 @@ footer{
 
 @media (max-width: 960px) {
     #sterling-footer-logo img {
-        height: 40px;
-        width: 40px;     
+        height: 20px;
+        width: 20px;     
     }
+
+    footer .col-sm-3 p{
+        font-size: 14px;
+    }
+
+    footer .col-sm-3 div{
+        font-size: 11px;
+    }
+
+    #copyright{
+        font-size: 10px;
+    }
+
+    .footer-social-media {
+        font-size: 12px;
+    }
+
 }
+
 
 .footer-line-break{
     border-bottom: 2px solid #ffffff;
@@ -269,5 +331,5 @@ footer{
 
 .footer-social-media i{
     font-size: 28px;
-    margin: 0px 7px;
+    margin: 0px 5px;
 }
