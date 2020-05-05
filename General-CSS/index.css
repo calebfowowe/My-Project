@@ -270,6 +270,31 @@
 
 }
 
+.Team-member-image img{
+    border: none;
+    border-radius: 50%;
+}
+
+#The-Team .Team-member{
+    text-align: center;
+}
+
+@media (max-width:960px){
+    #The-Team .Team-member-info{
+        display: none!important;
+    }
+
+    #The-Team .Team-member-image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #The-Team .col-sm-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
 
 
 footer{
@@ -306,7 +331,6 @@ footer{
     }
 
 }
-
 
 .footer-line-break{
     border-bottom: 2px solid #ffffff;
