@@ -1,6 +1,17 @@
+
+#whole-page{
+    position: relative;
+}
+
+#header{
+    position: sticky;
+    z-index: 1030;
+}
+
 #nav-menu-colors{
     color: black;
 }
+
 
 #navbarDropdown{
     color: black;
@@ -18,8 +29,92 @@
     color: #D92128;
 }
 
+#menu-logo img{
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 960px) {
+    #menu-logo img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    #brand-text {
+        font-size: 1rem;
+    }
+}
+
+#brand-text:hover {
+    color: #D92128;;
+}
+
+#navbar-form .form-control{
+    height: 1.25rem!important;
+    width: 65%;
+    border: 0.5px solid #D92128;
+}
+
+#navbar-form .btn{
+    line-height: 1.25rem;
+    border: 0.5px solid #D92128;
+    color: black;
+}
+
+#navbar-form .btn:hover{
+    background-color: #D92128;
+    color: white;
+}
+
+@media (max-width:960px){
+    #navbar-form .form-control{
+        height: 0.75rem!important;
+        width: 55%;
+    }
+    #navbar-form .btn{
+        line-height: 0.75rem;
+        font-size: .75rem;
+    }
+    #nav-menu-colors{
+       font-size: 1rem!important;
+    }
+    #navbarDropdown{
+        font-size: 1rem!important;
+    }
+    .dropdown-item{
+        font-size: 0.625rem;
+    }
+
+    #carouselExampleIndicators .carousel-indicators li{
+        width: 4px!important;
+        height: 4px!important;
+        border-radius: 50%;
+    }
+
+    .carousel-inner .carousel-caption h5{
+        font-size: 24px!important;
+    }
+
+    .carousel-inner .carousel-caption p{
+        display: none!important;
+    }
+}
+
+
+.carousel-inner .carousel-caption h5{
+    font-size: 48px;
+}
+
 .carousel-inner{
     width: auto;
+}
+
+#carouselExampleIndicators .carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
 }
 
 .carousel-inner img{
@@ -34,10 +129,6 @@
     }
 }
 
-#menu-logo img{
-    height: 30px;
-    width: 30px;
-}
 
 #Second-row-heading{
     display: block;
@@ -59,14 +150,15 @@
 @media (max-width:960px){
     #Update-section .card img{
         width: 100%;
-        height: 80px;
+        height: 100px;
     }
+
 }
 
 
 @media (max-width:960px){
     .card-deck .card{
-        height: 150px;
+        height: 180px;
         width: 160px;
     }
 }
@@ -134,6 +226,7 @@
 #erm-section .col-sm-4 .card{
     border: none;
 }
+
 
 footer{
     background-color: rgb(170, 167, 167);
