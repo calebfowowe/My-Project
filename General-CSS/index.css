@@ -5,6 +5,7 @@
 
 #header{
     position: sticky;
+    top: 0px;
     z-index: 1030;
 }
 
@@ -220,6 +221,9 @@
 
 #erm-section{
     height: 100%;
+    border: 1px solid #D92128;
+    border-radius: 2px;
+    padding: 0px 15px 10px 15px;
 }
 
 #erm-section .card img{
@@ -249,6 +253,12 @@
 
     #erm-section .row{
         display: none!important;
+    }
+
+    #erm-section{
+        height: 100%;
+        border: 0.5px solid #D92128;
+        padding: 0px 7.5px 5px 7.5px;
     }
 
     /*#erm-section .card-img-overlay h5{
